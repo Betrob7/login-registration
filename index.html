@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./script.js"></script>
+    <title>Login & Registration</title>
+</head>
+<body>
+    <div id="divLogin">
+    <form class="formLogin">
+        <label for="">
+            Username:
+            <input id="usernameLogin" type="text">
+        </label>
+        <label for="">
+            Password:
+            <input id="passwordLogin" type="text">
+        </label>
+        <button id="buttonLogin">Log in!</button>
+        <p id="errorMessageLogin" class="d-none"></p>
+        <a id="signUp" href="">Sign up here!</a>
+    </form>
+    </div>
+    <div id="divRegistration" class="d-none">
+        <form class="formLogin">
+            <label for="">
+                Username:
+                <input id="usernameRegistration" type="text">
+            </label>
+            <label for="">
+                Password:
+                <input id="passwordRegistration" type="text">
+            </label>
+            <label for="">
+                Type password again:
+                <input id="passwordCheckRegistration" type="text">
+            </label>
+            <label for="">
+                Do you agree with our terms & conditions?
+                <input id="checkbox" type="checkbox">
+            </label>
+            <button id="buttonRegistration">Sign up!</button>
+            <p id="errorMessage" class="d-none"></p>
+        </form>
+        </div>
+</body>
+</html>
