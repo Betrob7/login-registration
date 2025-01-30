@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin {
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+label {
+    padding: .25rem;
+}
+
+button {
+    background-color: white;
+    padding: .1rem .5rem;
+    margin: .25rem;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
